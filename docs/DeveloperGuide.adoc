@@ -746,6 +746,11 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 |`*` |user |sort persons by tags|locate a group of people that belongs to the same category
 
 |`*` |user |sort persons by address|locate a group of people from living in the same area
+
+|`*` |user |update a person |change the entries to the latest details
+
+|`*` |user |download my addressbook |share my addressbook
+
 |=======================================================================
 
 {More to be added}
@@ -879,12 +884,65 @@ Use case ends.
 +
 Use case resumes at step 2.
 
+[discrete]
+=== Use case: Edit person
+
+*MSS*
+
+1.  User requests to list persons
+2.  AddressBook shows a list of persons
+3.  User requests to edit a specific person in the list
+4.  AddressBook edits the person
++
+Use case ends.
+
+*Extensions*
+
+[none]
+* 2a. The list is empty.
++
+Use case ends.
+
+* 3a. The given index is invalid.
++
+[none]
+** 3a1. AddressBook shows an error message.
++
+Use case resumes at step 2.
+
+[discrete]
+=== Use case: Add person
+
+*MSS*
+
+1.  User requests to add a new person
+2.  AddressBook adds the person
++
+Use case ends.
+
+*Extensions*
+
+[none]
+* 2a. The person is already existing in the addressbook
++
+[none]
+** 2a1. AddressBook shows an error message.
++
+Use case resumes at step 1.
+
+* 2b. The command format is invalid 
++
+[none]
+** 2b1. AddressBook shows an error message.
++
+Use case resumes at step 1.
+
 {More to be added}
 
 [appendix]
 == Non Functional Requirements
 
-.  Should work on any link:#mainstream-os[mainstream OS] as long as it has Java `1.8.0_60` or higher installed.
+.  Should work on any link:#mainstream-os[mainstream OS] as long as it has link:#Java[Java] `1.8.0_60` or higher installed.
 .  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
 .  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
 .  Should be portable and can be ran from flash drives.
@@ -896,6 +954,8 @@ Use case resumes at step 2.
 .  Should not use more than 100MB of link:#RAM[RAM].
 .  Should be able to work offline
 .  Should be free to download
+.  Should take at most 10 seconds for the application to startup
+.  Should take at most 10 seconds to return any results invoked by the user
 
 {More to be added}
 
@@ -927,6 +987,13 @@ RAM
 
 ....
 Random Access Memory
+....
+
+[[Java]]
+Java
+
+....
+A Sun Microsystems initiative to guide developers in writing, certifying, and marketing applications written entirely in the Java(TM) programming language.
 ....
 
 [appendix]
