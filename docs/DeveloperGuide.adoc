@@ -742,6 +742,11 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 |`*` |user |sort persons by tags|locate a group of people that belongs to the same category
 
 |`*` |user |sort persons by address|locate a group of people from living in the same area
+
+|`*` |user |update a person |change the entries to the latest details
+
+|`*` |user |download my addressbook |share my addressbook
+
 |=======================================================================
 
 {More to be added}
@@ -847,7 +852,7 @@ Use case ends.
 [appendix]
 == Non Functional Requirements
 
-.  Should work on any link:#mainstream-os[mainstream OS] as long as it has Java `1.8.0_60` or higher installed.
+.  Should work on any link:#mainstream-os[mainstream OS] as long as it has link:#Java[Java] `1.8.0_60` or higher installed.
 .  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
 .  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
 .  English should be the only language in the application.
@@ -857,6 +862,8 @@ Use case ends.
 .  Should not use more than 100MB of link:#RAM[RAM].
 .  Should be able to work offline
 .  Should be free to download
+.  Should take at most 10 seconds for the application to startup
+.  Should take at most 10 seconds to return any results invoked by the user
 
 {More to be added}
 
@@ -879,6 +886,13 @@ A contact detail that is not meant to be shared with others
 
 [[RAM]]
 RAM
+
+....
+Random Access Memory
+....
+
+[[Java]]
+A Sun Microsystems initiative to guide developers in writing, certifying, and marketing applications written entirely in the Java(TM) programming language.
 
 ....
 Random Access Memory
