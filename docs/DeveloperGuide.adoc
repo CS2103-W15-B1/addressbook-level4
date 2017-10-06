@@ -945,10 +945,10 @@ Random Access Memory
 ....
 
 [[Java]]
-A Sun Microsystems initiative to guide developers in writing, certifying, and marketing applications written entirely in the Java(TM) programming language.
+Java
 
 ....
-Random Access Memory
+A Sun Microsystems initiative to guide developers in writing, certifying, and marketing applications written entirely in the Java(TM) programming language.
 ....
 
 [appendix]
