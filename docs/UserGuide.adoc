@@ -14,7 +14,7 @@ endif::[]
 
 By: `Team SE-EDU`      Since: `Jun 2016`      Licence: `MIT`
 
-== Introductio`n
+== Introduction
 
 === What is Rubrika?
 

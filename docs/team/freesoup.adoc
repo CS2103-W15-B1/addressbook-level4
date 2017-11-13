@@ -2,10 +2,12 @@
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 :imagesDir: ../images
 :stylesDir: ../stylesheets
----
 
 == Purpose:
 
+This project portfolio serves to document the contributions I have made towards several key projects, such as CS2103T, during my undergraduate study in National University of Singapore. +
+
+The project portfolio includes justification for the features I have implemented as well as the documentation I have done for the projects I have taken part in.
 
 == Project: Rubrika
 Rubrika is a desktop address book application targeted at Self-employed professionals and freelancers to help the manage their contacts that they use in their day to day life. +
@@ -109,15 +111,6 @@ include::../DeveloperGuide.adoc[tag=rmtag]
 
 ---
 
-=== Enhancement Proposed: Add command `remark`
-
-{Explain similar to the Undo/Redo feature above.}
-
 === Other contributions
 
-* Updated the GUI color scheme (Pull requests https://github.com[#33], https://github.com[#34])
-* Wrote additional tests to increase coverage from 88% to 92% (Pull requests https://github.com[#36], https://github.com[#38])
-
-== Project: PowerPointLabs
-
-{Optionally (not graded), you may include other projects in your portfolio.}
+* Did Acceptance testing for W13-B3 (Issue https://github.com/CS2103AUG2017-W13-B3/main/issues/99[#99], https://github.com/CS2103AUG2017-W13-B3/main/issues/101[#101], https://github.com/CS2103AUG2017-W13-B3/main/issues/105[#105], https://github.com/CS2103AUG2017-W13-B3/main/issues/106[#106], https://github.com/CS2103AUG2017-W13-B3/main/issues/114[#114])

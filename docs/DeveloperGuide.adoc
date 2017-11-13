@@ -555,7 +555,7 @@ If more than one tag is given or if `INDEX` out of the range of the shown list i
 **Cons:** User may want to remove only from list shown instead of the whole list. +
 
 **Alternative 2:** Remove all tags for the list shown to the user. +
-**Pros:** User may removetag from only the list of people shown to them.
+**Pros:** User may removetag from only the list of people shown to them. +
 **Cons:** Required to sync the `UniqueTagList` of `AddressBook` as `TAGS` removed may still exist in the `AddresBook`.
 
 ---
@@ -567,7 +567,7 @@ If more than one tag is given or if `INDEX` out of the range of the shown list i
 **Cons:** If the `Tag` still exists in another contact, then it is a pointless deletion.
 
 **Alternative 2:** Checks if 'Tag` deleted is contained in another `Person`. +
-**Pros:** Not required to delete `Tag` from `UniqueTagList` if it still exist in any `Person`.
+**Pros:** Not required to delete `Tag` from `UniqueTagList` if it still exist in any `Person`. +
 **Cons:** Uses more resources since Rubrika will need to check check through everyone before deleting from `UniqueTagList`.
 // end::rmtag[]
 
@@ -733,7 +733,7 @@ If the file defined by the user uses a vCard (.vcf) file extension, then the add
 
 **Aspect**: Interoperability of vCards. +
 
-**Alternative 1 (current choice)**: vCards created by Rubrika are only expected to be readable by Rubrika.
+**Alternative 1 (current choice)**: vCards created by Rubrika are only expected to be readable by Rubrika. +
 **Pros:** Relatively easier to implement, as long as the `Import` function is able to take in the fields created by the `Export` function. +
 **Cons:** Export file might not work on other applications.
 
