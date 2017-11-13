@@ -3,6 +3,9 @@ ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 :imagesDir: ../images
 :stylesDir: ../stylesheets
 
+== Purpose
+The project portfolio acts as a documentation for the works i have contributed for this project.
+
 == Project: AddressBook - Rubrika
 AddressBook - Rubrika is a desktop address book application for small and medium enterprises or those that are self-employed. The user interacts with it using a CLI, and it has a GUI created with JavaFX. It is written in Java, and has about 6 kLoC.
 
@@ -97,4 +100,4 @@ User will be able to see very clearly the details of the event(Date, Time, Locat
 * Integrated Google map into Rubrika (Pull requests https://github.com/CS2103AUG2017-W15-B1/Main/pull/42)
 * Use different colors for different tags inside person cards (Pull requests https://github.com/CS2103AUG2017-W15-B1/Main/pull/3)
 * Created UI mock up
-
+* Did Acceptance testing for W-13-B3 https://github.com/CS2103AUG2017-W13-B3/main/issues/100
